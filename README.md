@@ -1,12 +1,12 @@
-# REST API USING CLOUDFLARE WORKERS AND FAUNA
+# REST API USING CLOUDFLARE SERVERLESS AND FAUNA
 
-In this project, we are built an REST API using Cloudflare Workers and Fauna. 
+In this project, we are built an REST API using Cloudflare Serverless and Fauna. 
 It manages a simple CRUD (Create, Read, Update, Delete) operations.
 
 ## Prerequisites
 - A Fauna account (https://fauna.com)
 
-- Cloudflare account (https://www.cloudflare.com)
+- A Cloudflare account (https://www.cloudflare.com)
 
 - Node 18 or more installed
 
@@ -39,7 +39,7 @@ It manages a simple CRUD (Create, Read, Update, Delete) operations.
   
  ### Init wrangler project
 
-  -- wrangler init restapi
+  -- wrangler init app
   
   -- What type of application do you want to create? "Hello World" worker
   
@@ -49,15 +49,15 @@ It manages a simple CRUD (Create, Read, Update, Delete) operations.
   
  ### Run project
 
-  -- In restapi folder -> npm run start
+  -- In app folder -> npm run start
   
  ### Deploy project
 
-  -- In restapi folder -> npm run deploy
+  -- In app folder -> npm run deploy
 
 ## Install Fauna package
 
-  -- npm i fauna --save
+  -- In app folder -> npm i fauna --save
   
 ## Configure Fauna Database
 
@@ -75,6 +75,6 @@ It manages a simple CRUD (Create, Read, Update, Delete) operations.
   
      [vars]
 
-     FAUNA_SECRET="fnAFjpQucxxxxxxxxxxxxxxxxxxxxxx-DK"
+     FAUNA_SECRET="xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 
 
