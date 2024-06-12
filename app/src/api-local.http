@@ -1,0 +1,33 @@
+
+###########
+
+GET http://localhost:8787 HTTP/1.1
+
+###########
+
+POST http://localhost:8787 HTTP/1.1
+content-type: application/json
+
+{
+    "firstname": "devteam",
+    "lastname": "momo",
+    "email": "devteam.momo@gmail.com",
+    "password": "123456",
+    "phone": "+245 02 45 89",
+    "address": "145c Barkclays Street",
+    "cp":"4512CDG",
+    "city": "London"
+}
+
+###########
+
+PUT http://localhost:8787/400433547493507280 HTTP/1.1
+content-type: application/json
+
+{
+    "firstname": "momo de la devteam"
+}
+
+###########
+
+DELETE http://localhost:8787/400433547493507280 HTTP/1.1
